@@ -1,0 +1,10 @@
+De thi phan tu luan: Lay tu 2 quyen Computer networking Addison và Conputer network tanabaum
+Chi can lam bai tap cuoi chuong Datalink layer, network layer, Transport layer 
+
+Dap an Computer networking Addison
+https://www.slideshare.net/seyutbt/solutions6theditioncomputerandnetworking2
+Dap an Conputer network tanabaum (Tap trung vao quyen nay)
+https://www.slideshare.net/abdullaziztagawy/computer-networks-4th-edition-problems-and-solutions
+
+Trac nghiem 100% de 2015 lay o day (Co Dap An)
+http://highered.mheducation.com/sites/0072967757/student_view0/chapter13/multiple_choice_quiz.html

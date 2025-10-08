@@ -1,0 +1,14 @@
+len = 1000000;
+x = randn(1,len);
+step = 0.1;
+k = -5:step:5;
+Px = hist(x,k)/len/step;
+stem(k,Px);
+Px_lythuyet = exp(-k.^2/2)/sqrt(2*pi);
+hold on;
+plot(k,Px_lythuyet);
+title('phan bo xac suat Gaus');
+xlabel('x');
+ylabel('Px');
+legend('Ly thuyet','mo phong');
+hold off;

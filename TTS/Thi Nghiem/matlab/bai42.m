@@ -1,0 +1,17 @@
+clear;
+load qpsk_signal;
+es=var(s);
+eb=es/2;
+snr_db=6;
+n_0=eb/10^(snr_db/10);
+n=sqrt(n_0/2)*(randn(size(s))+j*randn(size(s)));
+r=s+n;
+plot(r,'.');
+hold on;
+plot(s,'r*');
+hold on;
+t=0:0.01:2*pi;
+plot(exp(j*t),'r--');
+xlabel('Q');
+ylabel('I');
+title('tin hieu QPSK cong nhieu trang');

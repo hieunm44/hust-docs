@@ -1,0 +1,13 @@
+len = 100000;
+SNR_db = 0:2:8;
+SNR = 10.^(SNr_db/10);
+bsignal = randint(1,len);
+NRZ_signal = bsignal*2 - 1;
+for i=1:length(SNR_db)
+end
+plot(SNR_db,Pe,'bo--');
+noise = sqrt(N0(i))*randn(1,len);
+r_signal = NRZ_signal + noise;
+NRZ_decoded = sign(r_signal);
+r_bsignal = real(r_signal) >= 0;
+

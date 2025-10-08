@@ -1,0 +1,94 @@
+	Cau 1: nhap vao day so nhi phan, sau do luu vao thanh ghi BX ket qua duoi dang hexa
+.model small
+.stack 100
+.data
+count db 0
+mes1 db "nhap vao chuoi bit: $"
+mes2 db 0ah,0dh,"gia tri trong he 10 la: $"
+.code
+main proc
+    mov ax,@data
+    mov ds,ax
+    
+    mov ah,9
+    lea dx,mes1
+    int 21h        ; xuat ra man hinh "nhap vao gia tri chuoi bit: "
+    
+    NHAP:
+    mov ah,1
+    int 21h         ; nhap vao 0 hoac 1 hoac enter neu da nhap xong
+    cmp al,0dh      ; xem co phai nut enter hay ko
+    je TINH         ; neu la nut enter thi ko cho nhap vao nua, tinh toan thoi
+    sub al,30h      ; 0->9 trong bang ma ASCII la 30h->39h. ma ki tu minh nhap vao la ASCII nen phai tru di 30h de ra 0->9 
+    xor ah,ah       ; ah=0
+    push ax         ; dua ax vao ngan xep, ko dua dc rieng al, boi vi push se dua vao ngan xep 16bit 1 lan
+    inc count       ; dem so bit da nhap
+    jmp NHAP        ; cho nguoi dung nhap tiep bit tiep theo
+    
+    TINH:
+    mov cx,1        ; cx se lam he so, 1,2,4,8,16,...
+    LAP:
+    pop dx          ; lay bit ngoai cung ben phai ra, dua vao thanh ghi dx, thuc chat la dl, vi dh se =00
+    cmp dl,1        ; xem bit minh lay ra la 0 hay 1
+    je gap1         ; neu bit lay ra la 1 thi nhay? den nhan~ ten la gap1
+    SHL cx,1        ; neu bit lay ra la 0 thi chi can nhan 2 vao cx
+    dec count       ; vi da lay ra dc 1 bit nua, nen so bit trong ngan xep giam di 1
+    cmp count,0     ; xem da lay het bit ra chua
+    je xong         ; lay het roi thi nhay den nhan~ ten la xong
+    jmp LAP         ; chua lay ra het thi quay ve lay tiep
+    
+    gap1:           
+    add bx,cx       ; bx = bx + cx
+    SHL cx,1        ; nhan 2 cx
+    dec count        
+    cmp count,0
+    je xong
+    jmp LAP
+    
+    xong:     ;thanh ghi BX da chua ket qua can tim
+main endp
+end main
+
+
+	Cau 2: game ai nhanh nhat: lap trinh cho 8086 va 8255:
+.model small
+.stack 100
+.data
+PA DB C0h
+PB DB C2h
+PC DB C4h
+CR DB C6h
+.code
+Main Proc
+    mov ax,@data
+    mov ds,ax
+
+    mov dx,CR
+    mov al,10010000b   ; Port A mode 0 input, Port B mode 0 output, Port C output
+    out dx,al
+
+    mov al,1001000     ; trong do 1001 la so 9
+    mov dx,PC
+    out dx,al          ; hien len LED 7 thanh so 9
+    CountDown:
+    call delay1s
+    sub al,00010000    ; tru di 1, no ko phai la 00000001 la vi minh dung PC4-PC7 thay vi PC0-PC3
+    out dx,al
+    test al,al         ; kiem tra xem da ve so 0 hay chua
+    jz GameStart       ; neu led 7 thanh da dem ve 0 thi cho nguoi choi bam nut
+    jmp CountDown      ; neu chua dem ve 0 thi quay lai giam tiep
+
+    GameStart:
+    mov dx,PA
+    Check:
+    in al,dx           ; nhan du lieu vao cong A
+    test al,al         ; kiem tra xem al co' co`n =0 nua ko
+    jnz Endgame        ; neu khac 0 (jump if not zero) thi co nghia la chua ai bam nut
+    jmp Check          ; neu van =0 nghia la chua ai bam nut, lai quay ve kiem tra tiep
+    
+    Endgame:
+    mov dx,PB
+    out dx,al          ; den led cua nguoi bam nhanh nhat se duoc sang len
+Main Endp
+END MAIN   
+    

@@ -1,0 +1,6 @@
+% ham dich 1 day tin hieu
+function [y,n]=sigshift(x,m,n0)
+n=m+n0; 
+y=x;
+end
+

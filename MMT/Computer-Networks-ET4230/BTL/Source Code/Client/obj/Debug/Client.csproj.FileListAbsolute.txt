@@ -1,0 +1,32 @@
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\Client\bin\Debug\frmHungClient.exe.config
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\Client\obj\Debug\Interop.WMPLib.dll
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\Client\obj\Debug\AxInterop.WMPLib.dll
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\Client\obj\Debug\frmHungClient.exe
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\Client\obj\Debug\frmHungClient.pdb
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\Client\bin\Debug\frmHungClient.exe
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\Client\bin\Debug\frmHungClient.pdb
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\Client\bin\Debug\Interop.WMPLib.dll
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\Client\bin\Debug\AxInterop.WMPLib.dll
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\Client\obj\Debug\frmHungClient.frmClient.resources
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\Client\obj\Debug\frmHungClient.Properties.Resources.resources
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\bin\Debug\frmHungClient.exe.config
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\obj\Debug\Interop.WMPLib.dll
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\obj\Debug\AxInterop.WMPLib.dll
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\obj\Debug\frmHungClient.exe
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\PlayMusics - Copy\Client\obj\Debug\frmHungClient.pdb
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\Ung dung truyen file qua mang Lan\Client\bin\Debug\frmHungClient.exe.config
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\Ung dung truyen file qua mang Lan\Client\obj\Debug\Interop.WMPLib.dll
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\Ung dung truyen file qua mang Lan\Client\obj\Debug\AxInterop.WMPLib.dll
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\Ung dung truyen file qua mang Lan\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\Ung dung truyen file qua mang Lan\Client\obj\Debug\frmHungClient.exe
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\Ung dung truyen file qua mang Lan\Client\obj\Debug\frmHungClient.pdb
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\Ung dung truyen file qua mang Lan\Client\bin\Debug\frmHungClient.exe
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\Ung dung truyen file qua mang Lan\Client\bin\Debug\frmHungClient.pdb
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\Ung dung truyen file qua mang Lan\Client\bin\Debug\Interop.WMPLib.dll
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\Ung dung truyen file qua mang Lan\Client\bin\Debug\AxInterop.WMPLib.dll
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\Ung dung truyen file qua mang Lan\Client\obj\Debug\frmHungClient.frmClient.resources
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\Ung dung truyen file qua mang Lan\Client\obj\Debug\frmHungClient.Properties.Resources.resources
+E:\1.Tai lieu cac mon hoc\Mang may tinh\BTL\Ung dung truyen file qua mang Lan\Client\obj\Debug\Client.csproj.GenerateResource.Cache

@@ -1,0 +1,14 @@
+len=100000;
+x=randn(1,len);
+step=.1;
+k=-5:step:5;
+px=hist(x,k)/len/step;
+stem(k,px);
+Px_lythuyet=exp(-k.^2/2)/(sqrt(2*pi));
+hold on;
+plot(k,Px_lythuyet);
+title(' Phan bo xac suat Gauss ');
+xlabel('x');
+ylabel('P(x)');
+legend('Ly thuyet','Mo phong');
+hold off;
